@@ -1,0 +1,46 @@
+server:
+  servlet:
+    context-path: /sell
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+
+wechat:
+  # 公众账号, 授权
+  #mpAppId: wxc9fd93136398774b  自己的测试号
+  mpAppId: wxd898fcb01713c658 #师兄的
+  mpAppSecret: c706a3f00ef1c272566455d5a0e1a926
+
+  # 开放平台,  卖家扫码登录用
+  openAppId: wx6ad144e54af67d87
+  openAppSecret: 91a2ff6d38a2bbccfb7e9f9079108e2e
+
+  # 支付/商户号
+  mchId: 1483469312
+  mchKey: 098F6BCD4621D373CADE4E832627B4F6
+  # 发起支付不需要证书, 退款需要
+  keyPath: H:\imooc\weixin_cert\h5.p12
+  #异步通知地址
+  notifyUrl: http://pay.natapp4.cc/sell/pay/notify
+  templateId:
+    orderStatus: e-Cqq67QxD6YNI41iRiqawEYdFavW_7pc7LyEMb-yeQ
+
+projectUrl:
+  wechatMpAuthorize: http://pay.natapp4.cc
+  wechatOpenAuthorize: http://pay.natapp4.cc
+  sell: http://pay.natapp4.cc
+
+logging:
+  level:
+    com.imooc.dataobject.mapper: trace

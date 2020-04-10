@@ -1,0 +1,1893 @@
+Starting SellApplication on CHINA-20190323H with PID 9788 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 124ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 79ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d32ad0dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3324 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 9.847 seconds (JVM running for 14.186)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 17 ms
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7c69633 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@711bf30a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@425f8414 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7994da1a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@57b9e581 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5557f77b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+SQL Error: 0, SQLState: 08003
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4b2af30c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5b6c1ccc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@23c20b2b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6e078b42 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HHH000397: Using ASTQueryTranslatorFactory
+binding parameter [1] as [INTEGER] - [1]
+binding parameter [1] as [VARCHAR] - [1586404318063728579]
+binding parameter [1] as [VARCHAR] - [1586404318063728579]
+binding parameter [1] as [VARCHAR] - [1]
+【微信退款】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1586404318063728579",
+  "orderAmount": 0.01
+}
+【微信退款】response={
+  "orderId": "1586404318063728579",
+  "orderAmount": 0.01,
+  "outTradeNo": "4200000567202004096078976236",
+  "refundId": "1586404318063728579",
+  "outRefundNo": "50300404072020040900054995544"
+}
+binding parameter [1] as [INTEGER] - [2]
+binding parameter [2] as [VARCHAR] - [1586404318063728579]
+binding parameter [1] as [INTEGER] - [9970]
+binding parameter [2] as [VARCHAR] - [1]
+binding parameter [1] as [VARCHAR] - [1586364500140940835]
+binding parameter [1] as [VARCHAR] - [1586364500140940835]
+binding parameter [1] as [VARCHAR] - [1586364906703382209]
+binding parameter [1] as [VARCHAR] - [1586364906703382209]
+binding parameter [1] as [VARCHAR] - [1586404318063728579]
+binding parameter [1] as [VARCHAR] - [1586404318063728579]
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [INTEGER] - [1]
+binding parameter [2] as [VARCHAR] - [1]
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [INTEGER] - [0]
+binding parameter [2] as [VARCHAR] - [1]
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@781de5b9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7b675df0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@450e89f7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@484b240b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@677da10d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5472a4ed (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+SQL Error: 0, SQLState: 08003
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3c92bbd7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@d68da4a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7c0356cf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+SQL Error: 1146, SQLState: 42S02
+Starting SellApplication on CHINA-20190323H with PID 21208 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 136ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$377c425b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3768 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 14.933 seconds (JVM running for 19.812)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 22 ms
+SQL Error: 1146, SQLState: 42S02
+SQL Error: 1146, SQLState: 42S02
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s846ms473µs600ns).
+SQL Error: 1146, SQLState: 42S02
+Starting SellApplication on CHINA-20190323H with PID 3328 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 151ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9c90e7d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3456 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 11.507 seconds (JVM running for 16.134)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 15 ms
+binding parameter [1] as [VARCHAR] - [蛋糕]
+binding parameter [2] as [INTEGER] - [100003]
+binding parameter [3] as [TIMESTAMP] - [null]
+binding parameter [4] as [TIMESTAMP] - [null]
+SQL Error: 1062, SQLState: 23000
+binding parameter [1] as [VARCHAR] - [蛋糕]
+binding parameter [2] as [INTEGER] - [100005]
+binding parameter [3] as [TIMESTAMP] - [null]
+binding parameter [4] as [TIMESTAMP] - [null]
+HHH000397: Using ASTQueryTranslatorFactory
+binding parameter [1] as [INTEGER] - [6]
+binding parameter [1] as [INTEGER] - [6]
+binding parameter [1] as [VARCHAR] - [水果]
+binding parameter [2] as [INTEGER] - [null]
+binding parameter [3] as [INTEGER] - [6]
+SQL Error: 1048, SQLState: 23000
+binding parameter [1] as [INTEGER] - [6]
+binding parameter [1] as [INTEGER] - [6]
+binding parameter [1] as [INTEGER] - [null]
+binding parameter [2] as [INTEGER] - [6]
+SQL Error: 1048, SQLState: 23000
+Starting SellApplication on CHINA-20190323H with PID 10644 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 139ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dfbd003c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3239 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 11.199 seconds (JVM running for 15.556)
+Starting SellApplication on CHINA-20190323H with PID 20580 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 130ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7e83cb34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3309 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 11.378 seconds (JVM running for 15.674)
+Starting SellApplication on CHINA-20190323H with PID 16312 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 198ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7106e262] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3222 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 11.186 seconds (JVM running for 15.97)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 77 ms
+binding parameter [1] as [INTEGER] - [6]
+HHH000397: Using ASTQueryTranslatorFactory
+binding parameter [1] as [INTEGER] - [6]
+binding parameter [1] as [INTEGER] - [6]
+binding parameter [1] as [VARCHAR] - [水果]
+binding parameter [2] as [INTEGER] - [6]
+binding parameter [1] as [INTEGER] - [6]
+binding parameter [1] as [INTEGER] - [6]
+binding parameter [1] as [INTEGER] - [100006]
+binding parameter [2] as [INTEGER] - [6]
+binding parameter [1] as [INTEGER] - [6]
+binding parameter [1] as [INTEGER] - [6]
+binding parameter [1] as [INTEGER] - [100005]
+binding parameter [2] as [INTEGER] - [6]
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m12s15ms297µs700ns).
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4350e7bb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@331cb224 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@43441430 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2aa49b8d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@47113e32 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@194e3efe (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+SQL Error: 0, SQLState: 08003
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@71b507ae (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@58e25e6c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+Starting SellApplication on CHINA-20190323H with PID 19096 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 140ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 54ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4dc3987f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3486 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 11.45 seconds (JVM running for 17.099)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 19 ms
+HHH000397: Using ASTQueryTranslatorFactory
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [VARCHAR] - [1586364500140940835]
+binding parameter [1] as [VARCHAR] - [1586364500140940835]
+Starting SellApplication on CHINA-20190323H with PID 18780 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 160ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$85995673] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3350 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 13.38 seconds (JVM running for 17.925)
+Starting SellApplication on CHINA-20190323H with PID 20784 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 150ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$30470332] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3787 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 14.525 seconds (JVM running for 19.322)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 23 ms
+【登录校验】Cookie中查不到token
+【登录校验】Cookie中查不到token
+【登录校验】Cookie中查不到token
+【登录校验】Cookie中查不到token
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'state' is not present]
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'state' is not present]
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'state' is not present]
+Starting SellApplication on CHINA-20190323H with PID 21196 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 143ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a78e14c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4082 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 12.672 seconds (JVM running for 17.205)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 28 ms
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_tYbBYAFZ0SA3iiHUXHMwEcg4j4y0eoRe2ZcKNJsUob-ASNMkppWQgHuooQlA-pO0WxYRakq-gTxUNi2ONQBr9TSJPutLgzIcSWGCH4TLR2I', expiresTime=7200, refreshToken='32_oXdvVMcSjtm_njJIR7y2uCEOftCMfxd7KwmJjNdWPhjHIGB1zQNlqERHTRf4klBHNdz-AWnmdwc8IDrBN3SwFpFVyJgQoZi9TCdy7Y1r7R0', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m6s270ms713µs799ns).
+Failure in @ExceptionHandler public com.imooc.vo.ResultVO com.imooc.handler.SellExceptionHandler.handlerSellerException(com.imooc.exception.SellException)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:298)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:261)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1100)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:915)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:287)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:103)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:289)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:136)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1225)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:743)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:696)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:686)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:553)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1149)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:394)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:294)
+	... 60 common frames omitted
+【微信支付】异步通知, payResponse={
+  "orderAmount": 0.01,
+  "orderId": "1586362060408772727",
+  "outTradeNo": "4200000555202004095151261849"
+}
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6a37dea2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@739cdb5f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+Starting SellApplication on CHINA-20190323H with PID 20576 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 177ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$319a55cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3795 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 15.685 seconds (JVM running for 20.549)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 18 ms
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_L7pwMsjPnvFpAx-4RG-ffMnI_9aGdayxVrVG4unquaMKrlYjmAsFaNxWqpc0kbZqfSQuQvX6PTe1xbRl0NKYwmTzaoDtd-gef6TZTcdoE5o', expiresTime=7200, refreshToken='32_GmsAxNS0_i-Kam-ms6A2rZDjTrOEs2tiDyALclXFvidiR0rR9FkgldOX03eW8aKjpmuDOqbqhMWETXAUtO9tP13uRkvYb-BbJlsTHHzjHj8', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+Starting SellApplication on CHINA-20190323H with PID 20744 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 137ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$489ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3898 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 13.178 seconds (JVM running for 18.414)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 17 ms
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_sFepmwvI08V3qNTIK-AJoBOQy5EeRIi7iTfKb-gP_4oyyCRp7ge4BqyH87DJrzJu8-C1ClUR-lWslnkU1XE3spa5dgdkn-w2oN0dOzvCeTU', expiresTime=7200, refreshToken='32_SvSXG_t4cg_TBJgvbcKFIrvmURb4A0FxPSzlBQIrvJN6b2InIl9m0GAiiFbgiQ1-Fut_vBcnpDriWEaOEgUlWaQhlZr6FnzNy7LGtyguLfE', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+Starting SellApplication on CHINA-20190323H with PID 10644 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 158ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c8028a46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3715 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 12.331 seconds (JVM running for 17.08)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 21 ms
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32__DvKO3VCgCZGo60R_VP3ccEJnQVS5wGAeYH9ydk1FLutxLE6nuXb36hQ4iZSzrLhC_ZDoRci8l0Q5MZOKILZGUegkSwiPKohVqh2IBskaLA', expiresTime=7200, refreshToken='32_8Qcnb4TEFtmjpP9MMuefdAxZgxzAPTvGx4hdSRXjvsgxeq25__0ZiXFtpdFO3914wemH4akztRMsFLW0_F3TVCdu3aviRu2pZuP1Tk3u-Co', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m341ms703µs200ns).
+【微信支付】异步通知, payResponse={
+  "orderAmount": 0.01,
+  "orderId": "1586362060408772727",
+  "outTradeNo": "4200000555202004095151261849"
+}
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5629b184 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@19eab2a3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3fa86da4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6e50d730 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@40b9280d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7737fbe6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+SQL Error: 0, SQLState: 08003
+【微信支付】异步通知, payResponse={
+  "orderAmount": 0.02,
+  "orderId": "1586364321046216119",
+  "outTradeNo": "4200000567202004093653124270"
+}
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@60d0515 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7206a835 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@358702ba (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@749b0e4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@62a7cf21 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5fefd0a4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+SQL Error: 0, SQLState: 08003
+【微信支付】异步通知, payResponse={
+  "orderAmount": 0.02,
+  "orderId": "1586364321046216119",
+  "outTradeNo": "4200000567202004093653124270"
+}
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@50ab9e36 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1f516068 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2e84d95b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5c9dc54f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+binding parameter [1] as [VARCHAR] - [1586364321046216119]
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_3bUvyro3ZwdHN6rAkv0H718MLiPqyVvB6CjFRVPyWOd-bv89CjfR0FiqEC_rFWRNRE9p9JXpuSHbAU-X-NkHeWgUyI5AT1X-CSx0uClZ5X0', expiresTime=7200, refreshToken='32_tYbBYAFZ0SA3iiHUXHMwEXJCqul970M0bdSr3fNGzwX8DIa3wceXWOk2LJFPkKpWIo8vziO7m68rLeliHIcLtFbN4pFxWIIuewifqjrDBag', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+Starting SellApplication on CHINA-20190323H with PID 18464 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 179ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9452fe2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4236 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 13.448 seconds (JVM running for 18.024)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 19 ms
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_jfQeBdPp8FxAYmApFIwflxPL5Sr-eOPF6Gs7UfEvuyvJtB4BnH2qh1svu-Zzu9M2-O4FPUJ-7wq1S-IDktFOF-oqY0xiQbweQg67Fph5_W4', expiresTime=7200, refreshToken='32_tCaK6MGmUaf75QWIrtMdBvFb328q3Hqg3ebTfV790JkGFJDcV-YyehtEpJ-PEC6BeocCKu1uK_VOIj22RC549TjzxmqYCBEIlDcY-sSS-Qk', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+Starting SellApplication on CHINA-20190323H with PID 3032 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 148ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cf34a302] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3458 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 12.456 seconds (JVM running for 17.205)
+Starting SellApplication on CHINA-20190323H with PID 9416 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 155ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4414469] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3451 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 11.889 seconds (JVM running for 16.717)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 28 ms
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_oXdvVMcSjtm_njJIR7y2uGbhef0cnVHS_4Ur_fWPHu7GYXnUcNXTpGRv9l0OGbfLx82j4tAEvoeV5nEvaWrjD8aCTrStbejRyL94et_hgyo', expiresTime=7200, refreshToken='32_TieKZetKuWEQpYnpr8N3spdJpqroMSwcyyFQj1qfw3vrmAGja_6RZ3bRgmvN7y8gydJjPLQLGT2KuRvZMf5xGPqUEgmHdOcH0sxa9Be_Z5A', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_rx3FjRrJK9juc100nD1omeZVNwcXfBG1xEDHiz-hY24Qt-uAMigGhnUQSXZ0jctp84OPttVjbPP0St4-tnDcRehjgMv3nOV7Wy3vm23wZ9w', expiresTime=7200, refreshToken='32_aUd5VMisPEpkQRJdyS3_rP_0dKn2cuKzK8aIOmrf2sGV0YMcJYqvfVvKDZNOpJfLFZvu5zTzbSNgToI9dphkPBAwLGJ2L0nDNA_mjZi3ESU', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_BNYYKDzbnU5FAmbeWoKJEaYbSUbdg8UuIqTONr9m2MQ6yo4AIPkp9M38iUPrTM0VFeUF9XmUeBBfpekKal2xX_cF5z7cCnTziwLQDbQlX3I', expiresTime=7200, refreshToken='32_jw-hLRqqOPZHA3-SupMeH1Tf3lYdpuvto87DSJXGBeFUzfOpbLyrutg5L4IzEvzmkjclD4YIIRVar8VU6D74HZB-tBSkFGQnXhbe_M6VAnM', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+Starting SellApplication on CHINA-20190323H with PID 19948 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 148ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ec555193] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4424 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 14.211 seconds (JVM running for 19.329)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 51 ms
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32__Y3mJES1RP67vnTvXOLZ9_Nc3DFnJxfC8ZHb1Zk9RvFyZpoXZM3RNXkdAlcFtB2B2EicQTpWtijENiSRvkun4bCd6d8vGL6wcLqIH3nAdI4', expiresTime=7200, refreshToken='32_AgxvD8jKrqEBIBydPoiOvfOtrCXf8c3kQNOEPRKUg0bp36TQ6Qypg3zHudgLP4YQvkB1rBbFW5ZqvGp-3n47_8DfmQuthZYa15QePohNGi0', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s413ms958µs300ns).
+HHH000397: Using ASTQueryTranslatorFactory
+binding parameter [1] as [VARCHAR] - [o9AREv3w41amvwnU9DuRMXKUoPf0]
+【登录校验】Cookie中查不到token
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_r1jtKmdFfpsxQHoDFHhnAdVoxERNSqkIgdK3RtwmAqdiY8UqZIIw-EjH1z4syEoJ6EpHM2WuD2jOmrpiP8HLHTCiGPRtAmN8kmatmywz-zQ', expiresTime=7200, refreshToken='32_mxu-enf5ro0aP8LQUe4kd4MtHKySW1LIp1-defPPfAGZRH361MrDKAXb1jGon2PtQkbXrV9xAv8E3f9395KEJA-27xOgYzl_bOcifngPUQ0', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s567ms664µs399ns).
+binding parameter [1] as [VARCHAR] - [o9AREv3w41amvwnU9DuRMXKUoPf0]
+Starting without optional epoll library
+Starting without optional kqueue library
+【登录校验】Cookie中查不到token
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_kOkQkiIeFbTY_B0SnPQbdOyieGDn2vbhYSLXItlc8W_8CkTw-3p5qcn-AkqvDrDwMvg4j7aSDxMBVpp2uJbYx81WAMW6rVWvYFalq8aDeFA', expiresTime=7200, refreshToken='32_r1jtKmdFfpsxQHoDFHhnAdzSakvDA3ClmT90CuKyClGUfCJmjVCINEbfcYYnDYRTb1dW7pGX6zhWF5lZIiLGtAzWlXNzipeYwuQlHrM1d8I', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+binding parameter [1] as [VARCHAR] - [o9AREv3w41amvwnU9DuRMXKUoPf0]
+【登录校验】Cookie中查不到token
+【登录校验】Cookie中查不到token
+【登录校验】Cookie中查不到token
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s875ms442µs300ns).
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_cGYSSTOyRiBBpDwJ5YcsCOPqjZ4eSUQ-fn757iNUXrsFTg6X32mjay-IilSPQLtJjAWXb5RKNtrZmb918Y4Ik8WhR-i7B3UQ9lpjdqpA6Lk', expiresTime=7200, refreshToken='32_L-08WE_MuTMsxwsoqojoAAOuNOfba2W1v-6Pv3Su3st9ztxzuivHCsDMRa5DIZ5HPAYR4res60DKUmPeEXZzCrbxQyteLNdhq20ntpnwKPk', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@18d10c08 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4a8cf09c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6b5aa60b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7eb78f15 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2c48fdff (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7405b107 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+SQL Error: 0, SQLState: 08003
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_M31LyyzG97h7c0-5PNn5ZRlrEbjyiz9pq9JGQGRz56z1I95lQk9_3pg8nAw16fChdFjPTcvN6ZSjAKx9LseLizU6nRHcDuNRxzFlBD_NhDk', expiresTime=7200, refreshToken='32_tCaK6MGmUaf75QWIrtMdBpGEMYUAIpynt3RotPkFZlrw_pXNG6y5OUDva1QXroO0L3eUL9U97JfKj7ummHXx9_INfL7Mc-uAzgrk4MRLhC8', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@79c4c04a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@465a4543 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@fb4171b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@33acb381 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+binding parameter [1] as [VARCHAR] - [o9AREv3w41amvwnU9DuRMXKUoPf0]
+Reconnecting, last destination was /47.110.127.215:6379
+Reconnected to 47.110.127.215:6379
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_fgA3m5uEMnh91LM-zPzWSiA3lnDYliZfzOPppjV1JOg8peSx4QfLczTAUtvJvjGsHaAhp1jGgY5cAkepWVecGfr1NEYPhVy0SFzIEIbdPGA', expiresTime=7200, refreshToken='32_kJU8x0UPp2kY6vMX-ZTTVpgmxnwFb3kIHSAeV2vOHluAniYhryp8izizppswsHZ2gzm_HMPXx5L4QPMfdDW3vXCiKNRLHhSiS9bnQPHyoPk', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+binding parameter [1] as [VARCHAR] - [o9AREv3w41amvwnU9DuRMXKUoPf0]
+【登录校验】Cookie中查不到token
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_19qSSrMmcJ26ZIE6uYVp_Ic5uGnH-AaE60ic-haGQh93dCc-bXEmlX4mHsBFzZPV07jJB3LW-fpwM-MUoPPRQxFWcv5_B03A0E4gkowBhQE', expiresTime=7200, refreshToken='32_5aihxDvDsRgF5CO-1tP9Sr9VGi7xa3cf-rhs3suMQTwlQMnDt1khV7id9N0NtjtSYEG_tpKWr_UAbyLstH4qW9ErHxdqTcWzQoyGx2-o8Sc', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+binding parameter [1] as [VARCHAR] - [o9AREv3w41amvwnU9DuRMXKUoPf0]
+Starting SellApplication on CHINA-20190323H with PID 9956 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 199ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b613d565] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3792 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 12.263 seconds (JVM running for 16.944)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 33 ms
+Starting without optional epoll library
+Starting without optional kqueue library
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_B3dRHHNmhTP6DQird8hJ3prCQYjJ3DfXa7TGWUPhtVFCcPLOCPjMj9AiY8rAPt2_a5msSXwSB6SdpTjWeaO8JzDncLMiTYNVowI1G21ZAMs', expiresTime=7200, refreshToken='32_IQRImUJANGbcWHr0uIYnxuf4BN_PhyDuePWr5r6z2R_6WL88U70Gm3gVauiX0rS-qsUbGpNq6kLtUu-SEU-zneCy3L-csVJHZjrUlmV3SOQ', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+HHH000397: Using ASTQueryTranslatorFactory
+binding parameter [1] as [VARCHAR] - [o9AREv3w41amvwnU9DuRMXKUoPf0]
+Starting SellApplication on CHINA-20190323H with PID 12172 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 158ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6f8466df] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3277 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 11.222 seconds (JVM running for 16.099)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 26 ms
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32__DvKO3VCgCZGo60R_VP3cW8eahrhYPx5zKnWyGicZmvo9QTuvmuG_e2rsLS9sU7IhqWHTReT-kznzvl3lkzglsYbZ8LmeBSxfiBNkBws3BI', expiresTime=7200, refreshToken='32_iekJthOK1BlPPEWbHaYJmlcT1a7ucq3lq33nhQOhphqYUs8sLs9bsBXabDfKg0tb50Nsk6wqo5jVamiOl7mbMPEIuGOWL8l7GGVmGkQZSr0', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+HHH000397: Using ASTQueryTranslatorFactory
+binding parameter [1] as [VARCHAR] - [o9AREv3w41amvwnU9DuRMXKUoPf0]
+Starting without optional epoll library
+Starting without optional kqueue library
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_3bUvyro3ZwdHN6rAkv0H778zix9QWYe6mv84cMaE5aDCjDSWO1CFTsHp4ZtEWf_MXiQV4EaDk7M8aBZw72J_gyGG8aAVibwjhcgz7tqpa_k', expiresTime=7200, refreshToken='32_B3dRHHNmhTP6DQird8hJ3rolnVFo9j5b-8wD7ZE6N9AC6cX8WB5fkPlX4BWuf0iLZ51-tpf0Dv5T4S_0vzc7cfoahyBOS5zialQm_MKPReo', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+binding parameter [1] as [VARCHAR] - [o9AREv3w41amvwnU9DuRMXKUoPf0]
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_DlvbU-qc4kjdgCgJzG_BoJMeqsP3ofwD_qub1lQrslnVyk_jdd0uR1hCLAxVayS1vmLbFqJ_jRC81XFWjB4ao_SWbK2BT2kUiFqrjtOdX1k', expiresTime=7200, refreshToken='32_9U8YkzK3P8J7klrdrVFhwIexvqGBV1mw5pJlJzLxcgqhpu7DNwA8IoLJ6_cHqFLjw7zyRa_KR18DRB1pKy7yyHgsw5YYl3OCa7xR4_-GyEs', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+binding parameter [1] as [VARCHAR] - [o9AREv3w41amvwnU9DuRMXKUoPf0]
+Starting SellApplication on CHINA-20190323H with PID 15064 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 319ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 195ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7af5e79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Starting SellApplication on CHINA-20190323H with PID 19124 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 136ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1d5d5164] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3471 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 12.413 seconds (JVM running for 18.258)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 16 ms
+Starting without optional epoll library
+Starting without optional kqueue library
+HHH000397: Using ASTQueryTranslatorFactory
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+【websocket消息】有新的连接, 总数:1
+【websocket消息】有新的连接, 总数:2
+【websocket消息】连接断开, 总数:1
+【websocket消息】有新的连接, 总数:2
+【websocket消息】有新的连接, 总数:3
+【websocket消息】连接断开, 总数:2
+【websocket消息】连接断开, 总数:1
+【websocket消息】连接断开, 总数:0
+Reconnecting, last destination was /47.110.127.215:6379
+Reconnected to 47.110.127.215:6379
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@108aa525 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@32b12290 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@26fc6338 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3c35558c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3d228ebc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@74010769 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+SQL Error: 0, SQLState: 08003
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5793aa6d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@58c1d5d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3bd680c8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2c79a59b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+Reconnecting, last destination was /47.110.127.215:6379
+Reconnected to 47.110.127.215:6379
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@9f41f23 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@102f9969 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7a896b6c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4537a923 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@68c50284 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1231bfa6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+SQL Error: 0, SQLState: 08003
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ca43515 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6bfd4b23 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6c18ac22 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4c08d799 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+【websocket消息】有新的连接, 总数:1
+Starting SellApplication on CHINA-20190323H with PID 21356 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 148ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9b4ece1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3547 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 11.867 seconds (JVM running for 16.673)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 23 ms
+Starting without optional epoll library
+Starting without optional kqueue library
+HHH000397: Using ASTQueryTranslatorFactory
+【websocket消息】有新的连接, 总数:1
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [VARCHAR] - [1586438110175843761]
+binding parameter [1] as [VARCHAR] - [1586438110150803355]
+【websocket消息】广播消息, message=1586438110150803355
+binding parameter [1] as [VARCHAR] - [1586438110150803355]
+binding parameter [2] as [VARCHAR] - [http://img1.mukewang.com/5dc3891e0001049611251125.jpg]
+binding parameter [3] as [VARCHAR] - [1]
+binding parameter [4] as [VARCHAR] - [皮蛋瘦肉粥]
+binding parameter [5] as [NUMERIC] - [0.01]
+binding parameter [6] as [INTEGER] - [2]
+binding parameter [7] as [VARCHAR] - [1586438110175843761]
+binding parameter [1] as [VARCHAR] - [武汉]
+binding parameter [2] as [VARCHAR] - [小李子]
+binding parameter [3] as [VARCHAR] - [oTgZpwUxcOEvEAneCqy_2Ds3Do38]
+binding parameter [4] as [VARCHAR] - [15623526820]
+binding parameter [5] as [TIMESTAMP] - [null]
+binding parameter [6] as [NUMERIC] - [0.02]
+binding parameter [7] as [INTEGER] - [0]
+binding parameter [8] as [INTEGER] - [0]
+binding parameter [9] as [TIMESTAMP] - [null]
+binding parameter [10] as [VARCHAR] - [1586438110150803355]
+binding parameter [1] as [INTEGER] - [9968]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】连接断开, 总数:0
+Reconnecting, last destination was /47.110.127.215:6379
+Reconnected to 47.110.127.215:6379
+Starting SellApplication on CHINA-20190323H with PID 17112 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 164ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$851a6f0a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4453 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 14.01 seconds (JVM running for 20.196)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 16 ms
+Starting without optional epoll library
+Starting without optional kqueue library
+【登录校验】Redis中查不到token
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_BNYYKDzbnU5FAmbeWoKJEUWVqxmYHii0uvzsbDjvfNRqb42pJ1uT8Kin246Vns_3yOCyeFPiPdh-g--PxGplR4kIAHbgHX5Gobql1RBmMB0', expiresTime=7200, refreshToken='32_srgZsmvuV05VLTi0NKVqze74XRIPMx3_UWfqbu6RoiMI7Ek69rnZdlwvZzoKvS1LX5ZS_U0Jlqve34MbZQ9TsKbiaT7OnrN44IxVzvepLE0', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+HHH000397: Using ASTQueryTranslatorFactory
+binding parameter [1] as [VARCHAR] - [o9AREv3w41amvwnU9DuRMXKUoPf0]
+【websocket消息】有新的连接, 总数:1
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [VARCHAR] - [1586438880547457512]
+binding parameter [1] as [VARCHAR] - [1586438880525974300]
+【websocket消息】广播消息, message=1586438880525974300
+binding parameter [1] as [VARCHAR] - [1586438880525974300]
+binding parameter [2] as [VARCHAR] - [http://img1.mukewang.com/5dc3891e0001049611251125.jpg]
+binding parameter [3] as [VARCHAR] - [1]
+binding parameter [4] as [VARCHAR] - [皮蛋瘦肉粥]
+binding parameter [5] as [NUMERIC] - [0.01]
+binding parameter [6] as [INTEGER] - [2]
+binding parameter [7] as [VARCHAR] - [1586438880547457512]
+binding parameter [1] as [VARCHAR] - [武汉]
+binding parameter [2] as [VARCHAR] - [小李子]
+binding parameter [3] as [VARCHAR] - [oTgZpwUxcOEvEAneCqy_2Ds3Do38]
+binding parameter [4] as [VARCHAR] - [15623526820]
+binding parameter [5] as [TIMESTAMP] - [null]
+binding parameter [6] as [NUMERIC] - [0.02]
+binding parameter [7] as [INTEGER] - [0]
+binding parameter [8] as [INTEGER] - [0]
+binding parameter [9] as [TIMESTAMP] - [null]
+binding parameter [10] as [VARCHAR] - [1586438880525974300]
+binding parameter [1] as [INTEGER] - [9966]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】连接断开, 总数:0
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [VARCHAR] - [1586439300295296636]
+binding parameter [1] as [VARCHAR] - [1586439300291344459]
+binding parameter [1] as [VARCHAR] - [1586439300291344459]
+binding parameter [2] as [VARCHAR] - [http://img1.mukewang.com/5dc3891e0001049611251125.jpg]
+binding parameter [3] as [VARCHAR] - [1]
+binding parameter [4] as [VARCHAR] - [皮蛋瘦肉粥]
+binding parameter [5] as [NUMERIC] - [0.01]
+binding parameter [6] as [INTEGER] - [2]
+binding parameter [7] as [VARCHAR] - [1586439300295296636]
+binding parameter [1] as [VARCHAR] - [武汉]
+binding parameter [2] as [VARCHAR] - [小李子]
+binding parameter [3] as [VARCHAR] - [oTgZpwUxcOEvEAneCqy_2Ds3Do38]
+binding parameter [4] as [VARCHAR] - [15623526820]
+binding parameter [5] as [TIMESTAMP] - [null]
+binding parameter [6] as [NUMERIC] - [0.02]
+binding parameter [7] as [INTEGER] - [0]
+binding parameter [8] as [INTEGER] - [0]
+binding parameter [9] as [TIMESTAMP] - [null]
+binding parameter [10] as [VARCHAR] - [1586439300291344459]
+binding parameter [1] as [INTEGER] - [9964]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】有新的连接, 总数:1
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [VARCHAR] - [1586439311161183527]
+binding parameter [1] as [VARCHAR] - [1586439311158707865]
+【websocket消息】广播消息, message=1586439311158707865
+binding parameter [1] as [VARCHAR] - [1586439311158707865]
+binding parameter [2] as [VARCHAR] - [http://img1.mukewang.com/5dc3891e0001049611251125.jpg]
+binding parameter [3] as [VARCHAR] - [1]
+binding parameter [4] as [VARCHAR] - [皮蛋瘦肉粥]
+binding parameter [5] as [NUMERIC] - [0.01]
+binding parameter [6] as [INTEGER] - [2]
+binding parameter [7] as [VARCHAR] - [1586439311161183527]
+binding parameter [1] as [VARCHAR] - [武汉]
+binding parameter [2] as [VARCHAR] - [小李子]
+binding parameter [3] as [VARCHAR] - [oTgZpwUxcOEvEAneCqy_2Ds3Do38]
+binding parameter [4] as [VARCHAR] - [15623526820]
+binding parameter [5] as [TIMESTAMP] - [null]
+binding parameter [6] as [NUMERIC] - [0.02]
+binding parameter [7] as [INTEGER] - [0]
+binding parameter [8] as [INTEGER] - [0]
+binding parameter [9] as [TIMESTAMP] - [null]
+binding parameter [10] as [VARCHAR] - [1586439311158707865]
+binding parameter [1] as [INTEGER] - [9962]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】连接断开, 总数:0
+【websocket消息】有新的连接, 总数:1
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [VARCHAR] - [1586439327914448708]
+binding parameter [1] as [VARCHAR] - [1586439327911993827]
+【websocket消息】广播消息, message=1586439327911993827
+binding parameter [1] as [VARCHAR] - [1586439327911993827]
+binding parameter [2] as [VARCHAR] - [http://img1.mukewang.com/5dc3891e0001049611251125.jpg]
+binding parameter [3] as [VARCHAR] - [1]
+binding parameter [4] as [VARCHAR] - [皮蛋瘦肉粥]
+binding parameter [5] as [NUMERIC] - [0.01]
+binding parameter [6] as [INTEGER] - [2]
+binding parameter [7] as [VARCHAR] - [1586439327914448708]
+binding parameter [1] as [VARCHAR] - [武汉]
+binding parameter [2] as [VARCHAR] - [小李子]
+binding parameter [3] as [VARCHAR] - [oTgZpwUxcOEvEAneCqy_2Ds3Do38]
+binding parameter [4] as [VARCHAR] - [15623526820]
+binding parameter [5] as [TIMESTAMP] - [null]
+binding parameter [6] as [NUMERIC] - [0.02]
+binding parameter [7] as [INTEGER] - [0]
+binding parameter [8] as [INTEGER] - [0]
+binding parameter [9] as [TIMESTAMP] - [null]
+binding parameter [10] as [VARCHAR] - [1586439327911993827]
+binding parameter [1] as [INTEGER] - [9960]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】连接断开, 总数:0
+【websocket消息】有新的连接, 总数:1
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [VARCHAR] - [1586439349320895872]
+binding parameter [1] as [VARCHAR] - [1586439349318207980]
+【websocket消息】广播消息, message=1586439349318207980
+binding parameter [1] as [VARCHAR] - [1586439349318207980]
+binding parameter [2] as [VARCHAR] - [http://img1.mukewang.com/5dc3891e0001049611251125.jpg]
+binding parameter [3] as [VARCHAR] - [1]
+binding parameter [4] as [VARCHAR] - [皮蛋瘦肉粥]
+binding parameter [5] as [NUMERIC] - [0.01]
+binding parameter [6] as [INTEGER] - [2]
+binding parameter [7] as [VARCHAR] - [1586439349320895872]
+binding parameter [1] as [VARCHAR] - [武汉]
+binding parameter [2] as [VARCHAR] - [小李子]
+binding parameter [3] as [VARCHAR] - [oTgZpwUxcOEvEAneCqy_2Ds3Do38]
+binding parameter [4] as [VARCHAR] - [15623526820]
+binding parameter [5] as [TIMESTAMP] - [null]
+binding parameter [6] as [NUMERIC] - [0.02]
+binding parameter [7] as [INTEGER] - [0]
+binding parameter [8] as [INTEGER] - [0]
+binding parameter [9] as [TIMESTAMP] - [null]
+binding parameter [10] as [VARCHAR] - [1586439349318207980]
+binding parameter [1] as [INTEGER] - [9958]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】连接断开, 总数:0
+【websocket消息】有新的连接, 总数:1
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [VARCHAR] - [1586439358606299871]
+binding parameter [1] as [VARCHAR] - [1586439358603636920]
+【websocket消息】广播消息, message=1586439358603636920
+binding parameter [1] as [VARCHAR] - [1586439358603636920]
+binding parameter [2] as [VARCHAR] - [http://img1.mukewang.com/5dc3891e0001049611251125.jpg]
+binding parameter [3] as [VARCHAR] - [1]
+binding parameter [4] as [VARCHAR] - [皮蛋瘦肉粥]
+binding parameter [5] as [NUMERIC] - [0.01]
+binding parameter [6] as [INTEGER] - [2]
+binding parameter [7] as [VARCHAR] - [1586439358606299871]
+binding parameter [1] as [VARCHAR] - [武汉]
+binding parameter [2] as [VARCHAR] - [小李子]
+binding parameter [3] as [VARCHAR] - [oTgZpwUxcOEvEAneCqy_2Ds3Do38]
+binding parameter [4] as [VARCHAR] - [15623526820]
+binding parameter [5] as [TIMESTAMP] - [null]
+binding parameter [6] as [NUMERIC] - [0.02]
+binding parameter [7] as [INTEGER] - [0]
+binding parameter [8] as [INTEGER] - [0]
+binding parameter [9] as [TIMESTAMP] - [null]
+binding parameter [10] as [VARCHAR] - [1586439358603636920]
+binding parameter [1] as [INTEGER] - [9956]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】连接断开, 总数:0
+【websocket消息】有新的连接, 总数:1
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [VARCHAR] - [1586439369699303341]
+binding parameter [1] as [VARCHAR] - [1586439369697416846]
+【websocket消息】广播消息, message=1586439369697416846
+binding parameter [1] as [VARCHAR] - [1586439369697416846]
+binding parameter [2] as [VARCHAR] - [http://img1.mukewang.com/5dc3891e0001049611251125.jpg]
+binding parameter [3] as [VARCHAR] - [1]
+binding parameter [4] as [VARCHAR] - [皮蛋瘦肉粥]
+binding parameter [5] as [NUMERIC] - [0.01]
+binding parameter [6] as [INTEGER] - [2]
+binding parameter [7] as [VARCHAR] - [1586439369699303341]
+binding parameter [1] as [VARCHAR] - [武汉]
+binding parameter [2] as [VARCHAR] - [小李子]
+binding parameter [3] as [VARCHAR] - [oTgZpwUxcOEvEAneCqy_2Ds3Do38]
+binding parameter [4] as [VARCHAR] - [15623526820]
+binding parameter [5] as [TIMESTAMP] - [null]
+binding parameter [6] as [NUMERIC] - [0.02]
+binding parameter [7] as [INTEGER] - [0]
+binding parameter [8] as [INTEGER] - [0]
+binding parameter [9] as [TIMESTAMP] - [null]
+binding parameter [10] as [VARCHAR] - [1586439369697416846]
+binding parameter [1] as [INTEGER] - [9954]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】连接断开, 总数:0
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+binding parameter [1] as [VARCHAR] - [1586438110150803355]
+binding parameter [1] as [VARCHAR] - [1586438110150803355]
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [INTEGER] - [2]
+binding parameter [2] as [VARCHAR] - [1586438110150803355]
+binding parameter [1] as [INTEGER] - [9956]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+binding parameter [1] as [VARCHAR] - [1586439311158707865]
+binding parameter [1] as [VARCHAR] - [1586439311158707865]
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [INTEGER] - [2]
+binding parameter [2] as [VARCHAR] - [1586439311158707865]
+binding parameter [1] as [INTEGER] - [9958]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+Starting SellApplication on CHINA-20190323H with PID 9836 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 148ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f1a5aa39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3762 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 11.737 seconds (JVM running for 19.317)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 20 ms
+【登录校验】Cookie中查不到token
+【登录校验】Cookie中查不到token
+Starting SellApplication on CHINA-20190323H with PID 20592 (H:\imooc\sell\target\classes started by Administrator in H:\imooc\sell)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 163ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.SellerInfoRepository.
+Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$41bea989] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\JDK8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\bin;D:\Develop\JDK8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\tools\mysql-5.7.23-winx64\bin;D:\Develop\Utils\apache-maven-3.5.2\bin;D:\work\putty\;D:\Develop\Utils\git\Git\cmd;D:\Develop\Utils\TortoiseGit\bin;E:\vscode\Microsoft VS Code\bin;E:\rabbitmq\erl9.3\bin;C:\Program Files\TortoiseSVN\bin;%MONGODB_HOME%\bin;H:\tools\jad\jad158g.win;%GRADLE_HOME%\bin;H:\tools\vagrant\bin;H:\tools\node.js\;H:\tools\node.js\npm_modules;H:\tools\netapp\;H:\tools\docker-machine;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\fiddler;C:\Users\Administrator\AppData\Local\Programs\EmEditor;C:\Users\Administrator\AppData\Roaming\npm;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3578 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.7.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: listUsingGET_1
+Generating unique operation named: listUsingGET_2
+Generating unique operation named: detailUsingGET_1
+Generating unique operation named: listUsingGET_3
+Generating unique operation named: indexUsingGET_1
+Generating unique operation named: listUsingGET_4
+Generating unique operation named: saveUsingPOST_1
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 11.951 seconds (JVM running for 16.726)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 25 ms
+【登录校验】Cookie中查不到token
+【登录校验】Cookie中查不到token
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_WZP7VHbpceB4LpN29KKANoENVqZOa_CGgM-zxuzSfIwU4Q1w1bwCvwsk6SoOPeV7VHcn1qJ82i0cj8iP1b8oJhuHM9XmE_6UrpnDrzdgVBw', expiresTime=7200, refreshToken='32_KXoY52pRbXuoROpXBQCd3GpXblC7BxykzInAMzuKjs7sInWM14-AZQDoiDrmIWvLrNWBY8gv3_ysMD2NCJMeyQkpLrmDdhTYmCm0QS-eGgM', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+HHH000397: Using ASTQueryTranslatorFactory
+binding parameter [1] as [VARCHAR] - [o9AREv3w41amvwnU9DuRMXKUoPf0]
+Starting without optional epoll library
+Starting without optional kqueue library
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='32_ia2Y3CmplVbbLipTXUY8BLOZj7g_4V7WOFVrjCqZvsr7u6iZ8y9l6ZAytZMRlJpA0aKZFifCwIyI5bGi89X9HmVhVhlDNdJZKM0IUpeZUNE', expiresTime=7200, refreshToken='32_hztP40LfY8nQPYIFKC82lTI-dH6cWDjMqwNRoOboVRYIHkgEIzpZQ7u167w3qoeSz8fFMmG3AXxvs0-iHOP1y65pHyLJDM58isFgTPngyA0', openId='o9AREv3w41amvwnU9DuRMXKUoPf0', scope='snsapi_login', unionId='on8Wqw9BIewNFVkNMMkP1JOS5KHU'}
+binding parameter [1] as [VARCHAR] - [o9AREv3w41amvwnU9DuRMXKUoPf0]
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+binding parameter [1] as [VARCHAR] - [1586438880525974300]
+binding parameter [1] as [VARCHAR] - [1586438880525974300]
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [INTEGER] - [2]
+binding parameter [2] as [VARCHAR] - [1586438880525974300]
+binding parameter [1] as [INTEGER] - [9960]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+binding parameter [1] as [VARCHAR] - [1586439300291344459]
+binding parameter [1] as [VARCHAR] - [1586439300291344459]
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [INTEGER] - [2]
+binding parameter [2] as [VARCHAR] - [1586439300291344459]
+binding parameter [1] as [INTEGER] - [9962]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+binding parameter [1] as [VARCHAR] - [1586439327911993827]
+binding parameter [1] as [VARCHAR] - [1586439327911993827]
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [INTEGER] - [2]
+binding parameter [2] as [VARCHAR] - [1586439327911993827]
+binding parameter [1] as [INTEGER] - [9964]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+binding parameter [1] as [VARCHAR] - [1586439349318207980]
+binding parameter [1] as [VARCHAR] - [1586439349318207980]
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [INTEGER] - [2]
+binding parameter [2] as [VARCHAR] - [1586439349318207980]
+binding parameter [1] as [INTEGER] - [9966]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+binding parameter [1] as [VARCHAR] - [1586439358603636920]
+binding parameter [1] as [VARCHAR] - [1586439358603636920]
+binding parameter [1] as [VARCHAR] - [1]
+binding parameter [1] as [INTEGER] - [2]
+binding parameter [2] as [VARCHAR] - [1586439358603636920]
+binding parameter [1] as [INTEGER] - [9968]
+binding parameter [2] as [VARCHAR] - [1]
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+【websocket消息】有新的连接, 总数:1
+【websocket消息】连接断开, 总数:0
+【websocket消息】有新的连接, 总数:1
